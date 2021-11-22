@@ -1,6 +1,6 @@
 #include "graph.h"
 #define exchange {adjacencyMatrix buffer; transform(buffer, sourceObject); transform(object, buffer);};
-//I had many problems with this technique, therefore here is not template-function
+//I had many problems with that technique, therefore here is not template-function
 
 void transform(adjacencyMatrix& object, incidenceMatrix& sourceObject)
 {
